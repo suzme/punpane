@@ -1,0 +1,61 @@
+/* テンプレートが一瞬見えるのを防ぐ */
+[v-cloak] {
+  display: none;
+}
+
+/*
+  基本要素
+*/
+body {
+  font-size: 16px;
+  font-family: sans-serif;
+  color: #343434;
+}
+
+h1 {
+  text-align: center;
+  font-weight: normal;
+}
+
+a {
+  color: #3456cd;
+}
+
+
+/*
+  テーブル
+*/
+table {
+  border-collapse: collapse;
+  margin: auto;
+}
+
+td, th {
+  border: 1px solid #808080;
+  padding: 0.7rem;
+}
+
+th {
+  background-color: #555555;
+  color: #ffffff;
+  font-weight: normal;
+}
+
+td.number {
+  text-align: right;
+}
+
+/* 各難易度の先頭 */
+.levelBorder {
+  border-top: 2px solid #555555;
+}
+
+/* クリアランプボタン */
+td input {
+  width: 1.7rem;
+}
+
+
+p {
+  text-align: center;
+}

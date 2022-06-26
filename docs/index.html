@@ -1,0 +1,47 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Pun◇Pane難易度表</title>
+    <link rel="stylesheet" href="index.css">
+    <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  </head>
+  <body>
+    <h1>👊👊👊 Punching◇Panels難易度表 👊👊👊</h1>
+    <p>
+      いろいろ準備中です。<br>
+      リンク: 
+      <a href="https://github.com/suzme/punpane">難易度表GitHub</a>
+      <a href="https://github.com/cwtickle/punching-panels">Punching◇Panels公式</a>
+    </p>
+    <p>
+      <input type="button" id="share" value="Share">
+      <input type="button" id="export" value="Export">
+      <input type="button" id="import" value="Import">
+      <input type="button" id="reset" value="Reset">
+    </p>
+    <div id="app" v-cloak>
+      <table>
+        <tr><th>👊</th><th> </th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th><th>BPM</th><th>ツール値</th><th>ノート数</th><th>曲時間</th><th>備考</th></tr>
+        <tr v-for="chart of charts"
+          v-bind:style="{ 'background-color': chart.lampColor }"
+          v-bind:class="{ 'levelBorder': chart.levelBorder }">
+          <td>👊{{ chart.level }}</td>
+          <td><input type="button" value=" " @click="changeLamp(chart.id)"></td>
+          <td><a v-bind:href="chart.url">{{ chart.title }} [{{ chart.difName }}]</a></td>
+          <td>{{ chart.maker }}</td>
+          <td>{{ chart.artist }}</td>
+          <td class="number">{{ chart.bpm }}</td>
+          <td class="number">{{ chart.toolDif.toFixed(2) }}</td>
+          <td class="number">{{ chart.noteNum }}</td>
+          <td class="number">{{ chart.duration }}</td>
+          <td>{{ chart.remark }}</td>
+        </tr>
+      </table>
+    </div>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.6.14"></script>
+    <script src="./compress.js"></script>
+    <script src="./punpane.js"></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
