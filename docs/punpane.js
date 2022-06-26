@@ -1,6 +1,6 @@
 const charts = [
   {
-    'level': '99',
+    'level': '2',
     'title': 'Royal Glind',
     'difName': 'Starter',
     'artist': '287',
@@ -14,7 +14,7 @@ const charts = [
     'remark': '9 Panels'
   },
   {
-    'level': '99',
+    'level': '3',
     'title': 'Royal Glind',
     'difName': 'Basic',
     'artist': '287',
@@ -28,7 +28,7 @@ const charts = [
     'remark': '13 Panels'
   },
   {
-    'level': '99',
+    'level': '2',
     'title': 'The Five [Short Edit]',
     'difName': 'Basic',
     'artist': 'Cranky',
@@ -42,7 +42,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '4',
     'title': 'The Five [Short Edit]',
     'difName': 'Advanced',
     'artist': 'Cranky',
@@ -56,7 +56,7 @@ const charts = [
     'remark': '13 Panels'
   },
   {
-    'level': '99',
+    'level': '4',
     'title': 'こみちをかけぬけて',
     'difName': 'Basic',
     'artist': 'みそか',
@@ -69,7 +69,7 @@ const charts = [
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0340P_Komichi.html',
   },
   {
-    'level': '99',
+    'level': '3',
     'title': 'Over the frail dream',
     'difName': 'Basic',
     'artist': 'Phantasma',
@@ -82,7 +82,7 @@ const charts = [
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0076P_OverTheFrailDream.html',
   },
   {
-    'level': '99',
+    'level': '5',
     'title': 'Over the frail dream',
     'difName': 'Advanced',
     'artist': 'Phantasma',
@@ -95,7 +95,7 @@ const charts = [
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0076P_OverTheFrailDream.html',
   },
   {
-    'level': '99',
+    'level': '3',
     'title': 'Chance Time!!',
     'difName': 'Basic',
     'artist': '287',
@@ -108,7 +108,7 @@ const charts = [
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0341P_ChanceTime.html',
   },
   {
-    'level': '99',
+    'level': '5',
     'title': 'Chance Time!!',
     'difName': 'Basic',
     'artist': '287',
@@ -148,7 +148,7 @@ const charts = [
     'url': 'http://pw25.g2.xrea.com/ydisko/',
   },
   {
-    'level': '10',
+    'level': '8',
     'title': 'Yamanote Disko Klub',
     'difName': 'Very Hard',
     'artist': 'Carpainter',
@@ -188,7 +188,7 @@ const charts = [
     'url': 'http://pw25.g2.xrea.com/tkmk/',
   },
   {
-    'level': '8',
+    'level': '7',
     'title': 'ときめきセンチメンタル',
     'difName': 'Very Hard',
     'artist': 'Caro kissa',
@@ -268,7 +268,7 @@ const charts = [
     'url': 'http://pw25.g2.xrea.com/ktht/',
   },
   {
-    'level': '12',
+    'level': '9',
     'title': '極東の羊、テレキャスターと踊る',
     'difName': 'Very Hard',
     'artist': 'しゃろう',
@@ -281,7 +281,7 @@ const charts = [
     'url': 'http://pw25.g2.xrea.com/ktht/',
   },
   {
-    'level': '99',
+    'level': '8',
     'title': 'Calamity Fortune',
     'difName': 'Spoilt',
     'artist': 'LeaF',
@@ -294,7 +294,7 @@ const charts = [
     'url': 'https://tarwil1503.github.io/02CalamityFortuneA.html',
   },
   {
-    'level': '99',
+    'level': '8',
     'title': 'Wizdomiot',
     'difName': 'Unwise',
     'artist': 'LeaF',
@@ -307,7 +307,7 @@ const charts = [
     'url': 'https://tarwil1503.github.io/03WizdomiotA.html',
   },
   {
-    'level': '99',
+    'level': '8',
     'title': 'Say A Vengeance feat. Jenga (2014 Update)',
     'difName': '10-Declaration',
     'artist': 'ETIA.',
@@ -347,7 +347,7 @@ const charts = [
     'url': 'http://pw25.g2.xrea.com/spook/',
   },
   {
-    'level': '11',
+    'level': '8',
     'title': 'Spooktacular',
     'difName': 'Very Hard',
     'artist': 'PeriTune',
@@ -388,7 +388,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '3',
     'title': '哀愁系',
     'difName': 'ADVANCED',
     'artist': 'S',
@@ -402,7 +402,7 @@ const charts = [
     'remark': '13 Panels'
   },
   {
-    'level': '99',
+    'level': '4',
     'title': '哀愁系',
     'difName': 'MASTER',
     'artist': 'S',
@@ -429,7 +429,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '2',
     'title': 'What\'s what',
     'difName': 'BASIC',
     'artist': 'YU',
@@ -443,7 +443,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '3',
     'title': 'What\'s what',
     'difName': 'ADVANCED',
     'artist': 'YU',
@@ -457,7 +457,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '6',
     'title': 'What\'s what',
     'difName': 'MASTER',
     'artist': 'YU',
@@ -466,7 +466,7 @@ const charts = [
     'toolDif': 10.67,
     'noteNum': 648,
     'duration': '1:58',
-    'scoreId': 2,
+    'scoreId': 3,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P013_WW.html',
   },
   {
@@ -484,7 +484,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '3',
     'title': '零舞 "東京理科大学 YOSAKOIソーラン"',
     'difName': 'BASIC',
     'artist': 'Cranky',
@@ -498,7 +498,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '5',
     'title': '零舞 "東京理科大学 YOSAKOIソーラン"',
     'difName': 'ADVANCED',
     'artist': 'Cranky',
@@ -512,7 +512,7 @@ const charts = [
     'remark': '13 Panels'
   },
   {
-    'level': '99',
+    'level': '8',
     'title': '零舞 "東京理科大学 YOSAKOIソーラン"',
     'difName': 'MASTER',
     'artist': 'Cranky',
@@ -539,7 +539,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '2',
     'title': 'ShakujiiPark',
     'difName': 'BASIC',
     'artist': 'watson',
@@ -553,7 +553,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '5',
     'title': 'ShakujiiPark',
     'difName': 'ADVANCED',
     'artist': 'watson',
@@ -567,7 +567,7 @@ const charts = [
     'remark': '13 Panels'
   },
   {
-    'level': '99',
+    'level': '7',
     'title': 'ShakujiiPark',
     'difName': 'MASTER',
     'artist': 'watson',
@@ -580,7 +580,7 @@ const charts = [
     'url': 'http://onigiri.icekirby.net/Panel_2022/P597_SkjP.html',
   },
   {
-    'level': '99',
+    'level': '6',
     'title': '水燦神楽',
     'difName': 'Normal',
     'artist': 'WABI',
@@ -593,7 +593,7 @@ const charts = [
     'url': 'https://superkuppabros.sakura.ne.jp/hp/danoni/danoni/suisan_kagura.html',
   },
   {
-    'level': '99',
+    'level': '9',
     'title': '水燦神楽',
     'difName': 'Another',
     'artist': 'WABI',
