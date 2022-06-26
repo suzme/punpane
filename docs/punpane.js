@@ -11,7 +11,7 @@ const charts = [
     'duration': '1:07',
     'scoreId': 0,
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0337P_RoyalGlind.html',
-    'remark': '9 panels'
+    'remark': '9 Panels'
   },
   {
     'level': '99',
@@ -25,7 +25,7 @@ const charts = [
     'duration': '1:07',
     'scoreId': 1,
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0337P_RoyalGlind.html',
-    'remark': '13 panels'
+    'remark': '13 Panels'
   },
   {
     'level': '99',
@@ -39,7 +39,7 @@ const charts = [
     'duration': '2:13',
     'scoreId': 0,
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0339P_TheFive.html',
-    'remark': '8 panels'
+    'remark': '8 Panels'
   },
   {
     'level': '99',
@@ -53,7 +53,7 @@ const charts = [
     'duration': '2:13',
     'scoreId': 1,
     'url': 'https://cw7.sakura.ne.jp/danoni/2022/0339P_TheFive.html',
-    'remark': '13 panels'
+    'remark': '13 Panels'
   },
   {
     'level': '99',
@@ -132,7 +132,7 @@ const charts = [
     'duration': '2:04',
     'scoreId': 0,
     'url': 'http://pw25.g2.xrea.com/ydisko/',
-    'remark': '8 panels'
+    'remark': '8 Panels'
   },
   {
     'level': '7',
@@ -172,7 +172,7 @@ const charts = [
     'duration': '1:28',
     'scoreId': 0,
     'url': 'http://pw25.g2.xrea.com/tkmk/',
-    'remark': '8 panels'
+    'remark': '8 Panels'
   },
   {
     'level': '5',
@@ -212,7 +212,7 @@ const charts = [
     'duration': '1:28',
     'scoreId': 0,
     'url': 'http://pw25.g2.xrea.com/amn/',
-    'remark': '8 panels'
+    'remark': '8 Panels'
   },
   {
     'level': '3',
@@ -252,7 +252,7 @@ const charts = [
     'duration': '1:50',
     'scoreId': 0,
     'url': 'http://pw25.g2.xrea.com/ktht/',
-    'remark': '13 panels'
+    'remark': '13 Panels'
   },
   {
     'level': '6',
@@ -360,7 +360,7 @@ const charts = [
     'url': 'http://pw25.g2.xrea.com/spook/',
   },
   {
-    'level': '99',
+    'level': '1',
     'title': '哀愁系',
     'difName': 'STARTER',
     'artist': 'S',
@@ -374,7 +374,7 @@ const charts = [
     'remark': '8 Panels'
   },
   {
-    'level': '99',
+    'level': '1',
     'title': '哀愁系',
     'difName': 'BASIC',
     'artist': 'S',
@@ -415,7 +415,7 @@ const charts = [
     'url': 'http://onigiri.icekirby.net/Panel_2022/P011_aisyukei.html',
   },
   {
-    'level': '99',
+    'level': '1',
     'title': 'What\'s what',
     'difName': 'STARTER',
     'artist': 'YU',
@@ -470,7 +470,7 @@ const charts = [
     'url': 'http://onigiri.icekirby.net/Panel_2022/P013_WW.html',
   },
   {
-    'level': '99',
+    'level': '1',
     'title': '零舞 "東京理科大学 YOSAKOIソーラン"',
     'difName': 'STARTER',
     'artist': 'Cranky',
@@ -525,7 +525,7 @@ const charts = [
     'url': 'http://onigiri.icekirby.net/Panel_2022/P362_RAVE.html',
   },
   {
-    'level': '99',
+    'level': '1',
     'title': 'ShakujiiPark',
     'difName': 'STARTER',
     'artist': 'watson',

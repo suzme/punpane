@@ -22,7 +22,7 @@
     </p>
     <div id="app" v-cloak>
       <table>
-        <tr><th>👊</th><th> </th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th><th>BPM</th><th>ツール値</th><th>ノート数</th><th>曲時間</th><th>備考</th></tr>
+        <tr><th>👊</th><th> </th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th><th>BPM</th><th>ツール値</th><th>パネル数</th><th>曲時間</th><th>備考</th></tr>
         <tr v-for="chart of charts"
           v-bind:style="{ 'background-color': chart.lampColor }"
           v-bind:class="{ 'levelBorder': chart.levelBorder }">
