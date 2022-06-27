@@ -294,7 +294,7 @@ const charts = [
     'url': 'https://tarwil1503.github.io/02CalamityFortuneA.html',
   },
   {
-    'level': '8',
+    'level': '9',
     'title': 'Wizdomiot',
     'difName': 'Unwise',
     'artist': 'LeaF',
