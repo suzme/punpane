@@ -385,6 +385,7 @@ const charts = [
     'duration': '2:01',
     'scoreId': 1,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P011_aisyukei.html',
+    'key': '*',
     'remark': '8 Panels'
   },
   {
@@ -413,6 +414,7 @@ const charts = [
     'duration': '2:01',
     'scoreId': 3,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P011_aisyukei.html',
+    'key': '*'
   },
   {
     'level': '1',
@@ -454,6 +456,7 @@ const charts = [
     'duration': '1:58',
     'scoreId': 2,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P013_WW.html',
+    'key': '*',
     'remark': '8 Panels'
   },
   {
@@ -468,6 +471,7 @@ const charts = [
     'duration': '1:58',
     'scoreId': 3,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P013_WW.html',
+    'key': '*'
   },
   {
     'level': '1',
@@ -509,6 +513,7 @@ const charts = [
     'duration': '2:18',
     'scoreId': 2,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P362_RAVE.html',
+    'key': '*',
     'remark': '13 Panels'
   },
   {
@@ -523,6 +528,7 @@ const charts = [
     'duration': '2:18',
     'scoreId': 3,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P362_RAVE.html',
+    'key': '*'
   },
   {
     'level': '1',
@@ -564,6 +570,7 @@ const charts = [
     'duration': '1:12',
     'scoreId': 2,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P597_SkjP.html',
+    'key': '*',
     'remark': '13 Panels'
   },
   {
@@ -578,6 +585,7 @@ const charts = [
     'duration': '1:12',
     'scoreId': 3,
     'url': 'http://onigiri.icekirby.net/Panel_2022/P597_SkjP.html',
+    'key': '*'
   },
   {
     'level': '6',
