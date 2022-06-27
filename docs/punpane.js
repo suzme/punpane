@@ -110,7 +110,7 @@ const charts = [
   {
     'level': '5',
     'title': 'Chance Time!!',
-    'difName': 'Basic',
+    'difName': 'Advanced',
     'artist': '287',
     'maker': 'ティックル',
     'bpm': 182,
