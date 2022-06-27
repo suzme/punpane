@@ -21,7 +21,7 @@
     </p>
     <div id="app" v-cloak>
       <div class="summary">
-        <div v-for="(color, i) of lampColors" v-bind:style="{ 'background-color': color }">
+        <div v-for="(color, i) of lampColors" v-bind:style="{ 'background': color }">
           {{ charts.filter(chart => chart.lamp === i).length }}
         </div>
         <div class="total">
@@ -31,7 +31,7 @@
       <table class="main-table">
         <tr><th>👊</th><th> </th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th><th>BPM</th><th>ツール値</th><th>パネル数</th><th>曲時間</th><th>備考</th></tr>
         <tr v-for="chart of charts"
-          v-bind:style="{ 'background-color': chart.lampColor }"
+          v-bind:style="{ 'background': chart.lampColor }"
           v-bind:class="{ 'levelBorder': chart.levelBorder }">
           <td>👊{{ chart.level }}</td>
           <td><input type="button" value=" " @click="changeLamp(chart.id)"></td>

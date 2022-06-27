@@ -4,7 +4,7 @@
 const storageKey = 'lamps-punpane'
 
 // クリアランプの色
-const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccccff']
+const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccccff', 'linear-gradient(to right,#ffcccc,#ffffcc,#ccffcc,#ccffff,#ccccff,#ffccff)']
 
 // クリアランプ読み込み
 const storedLamps = JSON.parse(localStorage.getItem(storageKey) || '[]')
