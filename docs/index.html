@@ -9,8 +9,7 @@
   <body>
     <h1>👊👊👊 Punching◇Panels難易度表 👊👊👊</h1>
     <p>
-      いろいろ準備中です。<br>
-      リンク: 
+      リンク:
       <a href="https://github.com/suzme/punpane">難易度表GitHub</a>
       <a href="https://github.com/cwtickle/punching-panels">Punching◇Panels公式</a>
     </p>
@@ -21,7 +20,15 @@
       <input type="button" id="reset" value="Reset">
     </p>
     <div id="app" v-cloak>
-      <table>
+      <div class="summary">
+        <div v-for="(color, i) of lampColors" v-bind:style="{ 'background-color': color }">
+          {{ charts.filter(chart => chart.lamp === i).length }}
+        </div>
+        <div class="total">
+          Total: {{ charts.length }}
+        </div>
+      </div>
+      <table class="main-table">
         <tr><th>👊</th><th> </th><th>曲名 [譜面名]</th><th>譜面作者</th><th>アーティスト</th><th>BPM</th><th>ツール値</th><th>パネル数</th><th>曲時間</th><th>備考</th></tr>
         <tr v-for="chart of charts"
           v-bind:style="{ 'background-color': chart.lampColor }"

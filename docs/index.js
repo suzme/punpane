@@ -48,7 +48,8 @@ charts.forEach(chart => {
 const app = new Vue({
   el: '#app',
   data: {
-    charts: charts
+    charts: charts,
+    lampColors: lampColors
   },
   methods: {
     // クリアランプ変更

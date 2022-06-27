@@ -25,17 +25,17 @@ a {
 /*
   テーブル
 */
-table {
+.main-table {
   border-collapse: collapse;
   margin: auto;
 }
 
-td, th {
+.main-table td, .main-table th {
   border: 1px solid #808080;
   padding: 0.7rem;
 }
 
-th {
+.main-table th {
   background-color: #555555;
   color: #ffffff;
   font-weight: normal;
@@ -55,7 +55,28 @@ td input {
   width: 1.7rem;
 }
 
-
 p {
   text-align: center;
+}
+
+/* ランプ数表示 */
+.summary {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 640px;
+  margin: auto;
+  margin-bottom: 0.5rem;
+  font-size: 90%;
+}
+
+.summary > div {
+  text-align: center;
+  width: 2rem;
+  padding: 0.2rem;
+  flex: auto;
+}
+
+.total {
+  width: 5rem !important;
 }
