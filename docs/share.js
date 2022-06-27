@@ -1,7 +1,7 @@
 'use strict'
 
 // クリアランプの色
-const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccccff']
+const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccccff', 'linear-gradient(to right,#ffcccc,#ffffcc,#ccffcc,#ccffff,#ccccff,#ffccff)']
 
 // クリアランプ読み込み
 let storedLamps = []
@@ -54,6 +54,7 @@ charts.forEach(chart => {
 const app = new Vue({
   el: '#app',
   data: {
-    charts: charts
+    charts: charts,
+    lampColors: lampColors
   }
 })
