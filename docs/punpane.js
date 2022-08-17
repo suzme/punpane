@@ -804,7 +804,7 @@ const charts = [
     'date': '2022/8/13',
   },
   {
-    'level': '8',
+    'level': '9',
     'title': '魔法少女とチョコレゐト',
     'difName': 'Enemy',
     'artist': 'ピノキオピー',
