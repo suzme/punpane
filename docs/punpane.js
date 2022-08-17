@@ -880,7 +880,7 @@ const charts = [
     'date': '2022/8/15',
   },
   {
-    'level': '5',
+    'level': '7',
     'title': 'Skyward',
     'difName': 'MASTER',
     'artist': 'GT-K',
