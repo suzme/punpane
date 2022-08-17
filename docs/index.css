@@ -80,3 +80,19 @@ p {
 .total {
   width: 5rem !important;
 }
+
+.new {
+  color: #ff0000;
+  font-size: 80%;
+  animation: rainbow 0.5s linear infinite;
+}
+
+@keyframes rainbow {
+    0% { color: #cc3333; }
+   16% { color: #cccc33; }
+   33% { color: #33cc33; }
+   50% { color: #33cccc; }
+   66% { color: #3333cc; }
+   83% { color: #cc33cc; }
+  100% { color: #cc3333; }
+}

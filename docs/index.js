@@ -9,11 +9,20 @@ const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccc
 // クリアランプ読み込み
 const storedLamps = JSON.parse(localStorage.getItem(storageKey) || '[]')
 
+// New!を表示する基準の日付(2週間前)
+const newReferenceDate = new Date()
+newReferenceDate.setDate(newReferenceDate.getDate() - 14)
+
 charts.forEach((chart, i) => {
   // クリアランプの初期化
   chart.id = i
   chart.lamp = storedLamps[i] || 0
   chart.lampColor = lampColors[chart.lamp]
+
+  // New!を表示するフラグを付加
+  if (new Date(chart.date) >= newReferenceDate) {
+    chart.new = true
+  }
 
   // URLにscoreId付加
   if (chart.scoreId) {
