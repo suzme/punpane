@@ -1,0 +1,33 @@
+const charts = [
+  {
+    'level': '4',
+    'title': '想い川',
+    'difName': 'Special',
+    'artist': 'TAM(多夢)',
+    'maker': 'すずめ',
+    'bpm': 80,
+    'toolDif': 4.89,
+    'noteNum': 306,
+    'duration': '1:40',
+    'scoreId': 0,
+    'url': 'https://suzume.kirara.st/omoigawa_p/',
+    'remark': '',
+    'date': '2023/08/15',
+  },
+  {
+    'level': '9',
+    'title': 'ウィーニーウォーカー',
+    'difName': 'キーボードウォーカー',
+    'artist': 'youまん',
+    'maker': 'cirno',
+    'bpm': 200,
+    'toolDif': 29.64,
+    'noteNum': 1863,
+    'duration': '4:10',
+    'scoreId': 0,
+    'url': 'https://boerdanoni.github.io/danoni/011_%E3%82%A6%E3%82%A3%E3%83%BC%E3%83%8B%E3%83%BC%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AB%E3%83%BC.html',
+    'remark': '',
+    'date': '2024/08/13',
+    'key': '*'
+  },
+]

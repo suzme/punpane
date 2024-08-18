@@ -1,7 +1,21 @@
 'use strict'
 
+/*
+キリズマと違って複数管理の予定が無かったので18pkeyがindex.htmlで、localStorageのキーもpunpaneで特別扱いになっている。
+その他の場合はファイル名の拡張子抜きをキーとして使用。
+*/
+let keymode = 'punpane'
+if (location.href.match(/\.html$/)) {
+  const filename = location.href.replace(/^.*\/(.*?)(_share)?\.html$/,'$1')
+  if (filename !== 'index') {
+    keymode = filename
+  }
+}
+
 // クリアランプを保存するlocalStorageのキー
-const storageKey = 'lamps-punpane'
+const storageKey = 'lamps-' + keymode
+
+console.log(storageKey)
 
 // クリアランプの色
 const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccccff', 'linear-gradient(to right,#ffcccc,#ffffcc,#ccffcc,#ccffff,#ccccff,#ffccff)']
@@ -93,7 +107,11 @@ const app = new Vue({
 document.addEventListener('DOMContentLoaded', () => {
   document.getElementById('share').addEventListener('click', () => {
     const lamps = charts.slice().sort(orderBy('id')).map(chart => chart.lamp)
-    location.href = 'share.html?' + compress(lamps)
+    if (keymode === 'punpane') {
+      location.href = 'share.html?' + compress(lamps)
+    } else {
+      location.href = keymode + '_share.html?' + compress(lamps)
+    }
   })
 
   document.getElementById('export').addEventListener('click', () => {
