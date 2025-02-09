@@ -307,7 +307,7 @@ const charts = [
     'url': 'https://tarwil1503.github.io/03WizdomiotA.html',
   },
   {
-    'level': '8',
+    'level': '9',
     'title': 'Say A Vengeance feat. Jenga (2014 Update)',
     'difName': '10-Declaration',
     'artist': 'ETIA.',
@@ -1030,7 +1030,7 @@ const charts = [
     'date': '2023/2/11',
   },
   {
-    'level': '7',
+    'level': '8',
     'title': 'シャイニングスター',
     'difName': 'Very Hard',
     'artist': '魔王魂',
