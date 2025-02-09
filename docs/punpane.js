@@ -1302,7 +1302,7 @@ const charts = [
     'date': '2023/12/30',
   },
   {
-    'level': '2',
+    'level': '4',
     'title': '新世界より',
     'difName': 'Basic',
     'artist': 'taitai',
@@ -1333,7 +1333,7 @@ const charts = [
     'date': '2025/1/4',
   },
   {
-    'level': '3',
+    'level': '5',
     'title': 'アテンション３',
     'difName': 'Normal',
     'artist': 'corico',
