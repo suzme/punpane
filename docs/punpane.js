@@ -906,7 +906,7 @@ const charts = [
     'duration': '1:25',
     'scoreId': 0,
     'url': 'http://pw25.g2.xrea.com/supert/',
-    'remark': '',
+    'remark': '13 Panels',
     'date': '2022/7/31',
   },
   {
