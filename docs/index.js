@@ -23,9 +23,9 @@ const lampColors = ['#dddddd', '#ccffcc', '#ffffcc', '#ffcccc', '#ffffff', '#ccc
 // クリアランプ読み込み
 const storedLamps = JSON.parse(localStorage.getItem(storageKey) || '[]')
 
-// New!を表示する基準の日付(2週間前)
+// New!を表示する基準の日付(90日)
 const newReferenceDate = new Date()
-newReferenceDate.setDate(newReferenceDate.getDate() - 14)
+newReferenceDate.setDate(newReferenceDate.getDate() - 90)
 
 charts.forEach((chart, i) => {
   // クリアランプの初期化
